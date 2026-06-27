@@ -5,6 +5,6 @@ WITH source AS (
 
 SELECT
     farm_type,
-    COUNT(*) AS nb_farms
+    COUNT(*) AS Quantity
 FROM source
 GROUP BY farm_type
