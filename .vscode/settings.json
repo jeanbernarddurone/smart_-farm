@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "database": "${workspaceFolder:jb_smart_farming}/dev.duckdb",
+            "name": "dbt_duckdb"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

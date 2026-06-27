@@ -1,0 +1,79 @@
+name: 'jb_smart_farming'
+version: '1.0.0'
+
+profile: 'jb_smart_farming'
+
+# Chemins des fichiers
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# Configuration des seeds (CSV)
+seeds:
+  jb_smart_farming:
+    +schema: raw
+    +null_marker: 'null'
+    farms:
+    farm_fields:
+    farms_crop:
+    farm_employees:
+    farm_equipment:
+    farm_financials:
+
+
+# seeds:
+#   jb_smart_farming:
+#     +schema: raw
+#     farms:
+#       +column_types:
+#         founded_year: integer
+#         total_area_hectares: float
+#         latitude: float
+#         longitude: float
+#     farm_fields:
+#       +column_types:
+#         area_hectares: float
+#         slope_percent: float
+#         ph_level: float
+#         organic_matter_percent: float
+#     farm_crops:
+#       +column_types:
+#         area_planted_hectares: float
+#         seed_quantity_kg: float
+#         fertilizer_used_kg: float
+#         pesticide_used_liters: float
+#         expected_yield_tons: float
+#         actual_yield_tons: float
+#     farm_employees:
+#       +column_types:
+#         salary_annual_cad: integer
+#         is_active: boolean
+#     farm_equipment:
+#       +column_types:
+#         purchase_year: integer
+#         purchase_price_cad: float
+#         horsepower: integer
+#         is_operational: boolean
+#     farm_financials:
+#       +column_types:
+#         year: integer
+
+# Configuration des modèles
+models:
+  jb_smart_farming:
+    staging:
+      +materialized: table
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts

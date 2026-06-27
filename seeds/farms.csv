@@ -1,0 +1,11 @@
+﻿farm_id,farm_name,owner_name,owner_email,owner_phone,founded_year,total_area_hectares,region,city,province,latitude,longitude,farm_type,certification,status
+F001,Ferme Beausoleil,Jean-Pierre Tremblay,jp.tremblay@fermebeausoleil.ca,418-555-0101,1985,245.5,Chaudière-Appalaches,Saint-Georges,Quebec,46.1167,-70.6667,mixte,biologique,active
+F002,Domaine des Érables,Marie-Claire Gagnon,mc.gagnon@domaineerables.ca,819-555-0202,1972,380,Estrie,Sherbrooke,Quebec,45.4,-71.8833,céréalière,conventionnelle,active
+F003,Ferme Horizon Vert,Robert Lavoie,r.lavoie@horizonvert.ca,450-555-0303,2001,128.3,Montérégie,Saint-Hyacinthe,Quebec,45.6167,-72.95,maraîchère,biologique,active
+F004,Exploitation Savane,Lucie Pelletier,l.pelletier@savane-farm.ca,705-555-0404,1998,512,Nord de l'Ontario,Timmins,Ontario,48.4667,-81.3333,céréalière,conventionnelle,active
+F005,Ferme du Lac Bleu,François Côté,f.cote@lacbleu.ca,418-555-0505,2010,89.7,Saguenay-Lac-Saint-Jean,Alma,Quebec,48.55,-71.65,laitière,conventionnelle,active
+F006,Green Valley Farm,Sarah Mitchell,s.mitchell@greenvalley.ca,613-555-0606,1965,620,Eastern Ontario,Kingston,Ontario,44.2333,-76.4833,mixte,conventionnelle,active
+F007,Ferme Les Quatre Vents,André Bouchard,a.bouchard@quatrevents.ca,418-555-0707,1990,175.8,Bas-Saint-Laurent,Rivière-du-Loup,Quebec,47.8167,-69.5333,maraîchère,biologique,active
+F008,Prairie Sun Farm,David Kowalski,d.kowalski@prairiesun.ca,204-555-0808,1978,890,Manitoba,Brandon,Manitoba,49.85,-99.95,céréalière,conventionnelle,active
+F009,Ferme Montagne Douce,Isabelle Roy,i.roy@montagnedouce.ca,819-555-0909,2005,203.4,Laurentides,Mont-Tremblant,Quebec,46.1167,-74.6,mixte,biologique,active
+F010,Sunrise Organic Farm,Emily Chen,e.chen@sunriseorganic.ca,604-555-1010,2015,67.2,Fraser Valley,Chilliwack,British Columbia,49.1667,-121.95,maraîchère,biologique,active
